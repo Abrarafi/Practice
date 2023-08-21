@@ -22,4 +22,4 @@ int main()
     int ans=ext_gcd(a,b,x,y);
     cout<<ans<<endl;
     cout<<x<<" "<<y<<endl;
-mmmm}
+}
