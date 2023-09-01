@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    int n;cin>>n;int a[n];
-    long long sum=0;int mn=0;
-    for(int i=0;i<n;i++)
+    int t;cin>>t;
+    for(int i=1;i<=t;i++)
     {
-        int x;cin>>x;
-        if(x<0)mn+=x;
-        else sum+=x;
+    int a,b,c;cin>>a>>b>>c;
+    int g=__gcd(a,b);
+    cout<<"Case "<<i<<": ";
+    if(c%g==0)cout<<"Yes"<<endl;
+    else cout<<"No"<<endl;
     }
-    cout<<sum-mn<<endl;
 }
